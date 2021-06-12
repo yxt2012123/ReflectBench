@@ -1,0 +1,5 @@
+JVM-Mut2
+#Reflective Elements: 3
+Inputs: boolean*100
+True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False True False
+False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True False True True True

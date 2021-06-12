@@ -1,0 +1,16 @@
+[
+{
+  "name":"com.vgerbot.reflect3.Person",
+  "allDeclaredConstructors":true,
+  "methods":[
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"say","parameterTypes":["java.lang.String"] }, 
+    {"name":"selfIntroduction","parameterTypes":[] }, 
+    {"name":"wasDead","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.vgerbot.reflect3.Reflect",
+  "allPublicMethods":true
+}
+]

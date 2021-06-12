@@ -1,0 +1,12 @@
+[
+{
+  "name":"com.vgerbot.reflect2.Person",
+  "allDeclaredConstructors":true,
+  "methods":[
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"say","parameterTypes":["java.lang.String"] }, 
+    {"name":"selfIntroduction","parameterTypes":[] }, 
+    {"name":"wasDead","parameterTypes":[] }
+  ]
+}
+]

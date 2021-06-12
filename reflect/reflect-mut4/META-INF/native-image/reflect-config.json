@@ -1,0 +1,67 @@
+[
+{
+  "name":"com.vgerbot.reflect4.FileDriver"
+},
+{
+  "name":"com.vgerbot.reflect4.Person",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect",
+  "allPublicMethods":true
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$AnnotatedReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$BatchMethodReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$BatchReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$ClassReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$ConstructorReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$EnumReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$FieldReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$MapReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$MemberReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$MethodKey"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$MethodReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$NULL"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$NullReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.Reflect$ObjectReflect"
+},
+{
+  "name":"com.vgerbot.reflect4.ReflectException"
+},
+{
+  "name":"com.vgerbot.reflect4.Test"
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredMethods":true
+}
+]

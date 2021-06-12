@@ -1,0 +1,15 @@
+[
+{
+  "name":"com.vgerbot.reflect1.Person",
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"<init>","parameterTypes":["java.lang.String"] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"say","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"com.vgerbot.reflect1.Reflect",
+  "allPublicMethods":true
+}
+]

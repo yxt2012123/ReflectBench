@@ -1,0 +1,4 @@
+Reflect-Mut3
+#Reflective Elements: 8
+Inputs: int*18
+100 111 99 104 101 99 107 112 117 98 108 105 99 98 97 116 99 104

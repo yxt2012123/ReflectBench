@@ -1,0 +1,25 @@
+Reflect-Mut4
+#Reflective Elements: 25
+Inputs: String, String, String
+Person wasDead say
+Person selfIntroduction say
+Person getName say
+Person _ _
+Test _ _
+FileDriver _ _
+Reflect _ _
+ReflectException _ _
+Reflect$AnnotatedReflect _ _
+Reflect$BatchMethodReflect _ _
+Reflect$BatchReflect _ _
+Reflect$ClassReflect _ _
+Reflect$ConstructorReflect _ _
+Reflect$EnumReflect _ _
+Reflect$FieldReflect _ _
+Reflect$MapReflect _ _
+Reflect$MemberReflect _ _
+Reflect$MethodKey _ _
+Reflect$MethodReflect _ _
+Reflect$NULL _ _
+Reflect$NullReflect _ _
+Reflect$ObjectReflect _ _
