@@ -1,0 +1,18 @@
+[
+{
+  "name":"java.lang.Object[]",
+  "allDeclaredFields":true
+},
+{
+  "name":"me.gv7.tools.josearcher2.test.EntityTest",
+  "allDeclaredFields":true
+},
+{
+  "name":"me.gv7.tools.josearcher2.test.TestBaseClass",
+  "allDeclaredFields":true
+},
+{
+  "name":"me.gv7.tools.josearcher2.test.TestClass",
+  "allDeclaredFields":true
+}
+]

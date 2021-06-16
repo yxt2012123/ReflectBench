@@ -1,0 +1,34 @@
+[
+{
+  "name":"java.lang.Object[]",
+  "allDeclaredFields":true
+},
+{
+  "name":"java.lang.String[]",
+  "allDeclaredFields":true
+},
+{
+  "name":"java.util.AbstractCollection",
+  "allDeclaredFields":true
+},
+{
+  "name":"java.util.AbstractList",
+  "allDeclaredFields":true
+},
+{
+  "name":"java.util.ArrayList",
+  "allDeclaredFields":true
+},
+{
+  "name":"me.gv7.tools.josearcher5.test.EntityTest",
+  "allDeclaredFields":true
+},
+{
+  "name":"me.gv7.tools.josearcher5.test.TestBaseClass",
+  "allDeclaredFields":true
+},
+{
+  "name":"me.gv7.tools.josearcher5.test.TestClass",
+  "allDeclaredFields":true
+}
+]

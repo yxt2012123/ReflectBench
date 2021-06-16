@@ -1,0 +1,4 @@
+Object-Mut5
+#Reflective Elements: 16
+Inputs: boolean*100
+false false false false false false false false false false false false true false false true true false true true true false true false true false true false true false true false true false true true true false true false false true false false false true true false true true true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false true false
