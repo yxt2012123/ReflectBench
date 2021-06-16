@@ -1,0 +1,5 @@
+Main Class: org.azeckoski.reflectutils.test.Test
+File Driver Class: org.azeckoski.reflectutils.test.FileDriver
+Dependency: lib/*.jar
+#Mutants: 1
+#Reflective Elements: 25
