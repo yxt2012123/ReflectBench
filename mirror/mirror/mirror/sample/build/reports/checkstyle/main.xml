@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.17">
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\sample\src\main\java\com\genymobile\mirror\Sample.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="32" column="32" severity="info" message="&apos;18&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" column="34" severity="info" message="&apos;10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="45" column="32" severity="info" message="&apos;32&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\sample\src\main\java\com\genymobile\mirror\ShyClass.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\sample\src\main\java\com\genymobile\mirror\ShyClassWrapper.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+</checkstyle>

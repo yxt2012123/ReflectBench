@@ -1,0 +1,6 @@
+com/genymobile/mirror/Sample.java
+ com.genymobile.mirror.Sample
+com/genymobile/mirror/ShyClassWrapper.java
+ com.genymobile.mirror.ShyClassWrapper
+com/genymobile/mirror/ShyClass.java
+ com.genymobile.mirror.ShyClass
