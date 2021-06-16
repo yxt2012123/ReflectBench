@@ -1,0 +1,45 @@
+[
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.Vector",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.commons.beanutils.DynaBean"
+},
+{
+  "name":"org.azeckoski.reflectutils.beanutils.DynaBeanAdapter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.azeckoski.reflectutils.classes.TestEntity",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.azeckoski.reflectutils.classes.TestNesting",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.azeckoski.reflectutils.classes.TestUltraNested",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"org.azeckoski.reflectutils.map.ArrayOrderedMap",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.azeckoski.reflectutils.refmap.Finalizer",
+  "methods":[{"name":"startFinalizer","parameterTypes":["java.lang.Class","java.lang.Object","boolean"] }]
+}
+]

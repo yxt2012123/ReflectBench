@@ -1,0 +1,8 @@
+ReflectUtils-Mut1
+#Reflective Elements: 25
+Inputs: int, String, String, String, String
+0 GetSuperClass UseDynaBean name.name anything
+1 GetSuperClass UseDynaBean name.name anything
+2 GetSuperClass UseDynaBean name.name anything
+3 GetSuperClass UseDynaBean name.name anything
+4 GetSuperClass UseDynaBean name.name anything
