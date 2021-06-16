@@ -1,0 +1,42 @@
+[
+{
+  "name":"com.google.gson2.DefaultConstructorAllocator$Null",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.gson2.test.TestTypes$ArrayOfObjects",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.gson2.test.TestTypes$BagOfPrimitives",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.gson2.test.TestTypes$BagOfPrimitives[]"
+},
+{
+  "name":"com.google.gson2.test.TestTypes$ClassWithNoFields",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.gson2.test.TestTypes$Nested",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.gson2.test.TestTypes$PrimitiveArray",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"long[]"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"allocateInstance","parameterTypes":["java.lang.Class"] }]
+}
+]
