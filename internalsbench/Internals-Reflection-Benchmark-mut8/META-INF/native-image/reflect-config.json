@@ -1,0 +1,13 @@
+[
+{
+  "name":"pl.ug.reflect.benchmark8.data.ReflectClass",
+  "methods":[
+    {"name":"getPrivateComplex","parameterTypes":[] }, 
+    {"name":"getPrivatePineapple","parameterTypes":[] }, 
+    {"name":"getPrivateSample","parameterTypes":[] }, 
+    {"name":"getPrivateSimple","parameterTypes":[] }, 
+    {"name":"getPrivateTemple","parameterTypes":[] }, 
+    {"name":"getPrivateWhatTheHeckIsReachable","parameterTypes":[] }
+  ]
+}
+]
