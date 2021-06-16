@@ -1,0 +1,11 @@
+[
+{
+  "name":"com.genymobile.mirror4.sample.ShyClass",
+  "fields":[{"name":"privateField"}],
+  "methods":[
+    {"name":"<init>","parameterTypes":["int"] }, 
+    {"name":"privateFieldToString","parameterTypes":[] }, 
+    {"name":"sumUp","parameterTypes":["int"] }
+  ]
+}
+]

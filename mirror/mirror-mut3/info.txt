@@ -1,0 +1,6 @@
+Mirror-Mut3
+#Reflective Elements: 6
+Inputs: int, int, int, int, int, double, double, double, String
+1 2 3 4 5 1.5707963 0.0 1.5707963 ccccc
+1 2 3 4 5 3.375 4.4816890703 -0.69314718 ccccc
+

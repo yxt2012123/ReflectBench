@@ -1,0 +1,4 @@
+Main Classes: com.genymobile.mirror[num].sample.Sample
+File Driver Classes: com.genymobile.mirror[num].sample.FileDriver
+#Mutants: 4
+#Reflective Elements: 24
