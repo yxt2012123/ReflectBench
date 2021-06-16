@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.17">
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\Mirror.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\MirrorHandler.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="42" severity="info" message="本行字符数 157个，最多：150个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\MirrorValidator.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="177" column="32" severity="info" message="&apos;5&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="187" column="24" severity="info" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="189" column="24" severity="info" message="&apos;4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\ReflectionFinder.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\Unwrapper.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\Wrapper.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\annotation\Class.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\annotation\Constructor.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\annotation\GetField.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\annotation\GetInstance.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\annotation\SetField.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\annotation\SetInstance.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\exception\MirrorDeveloperException.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+<file name="C:\Users\yxt\Downloads\mirror\mirror-8b954bf084183ffba3cd90f825b7cd7f8357c457\lib\src\main\java\com\genymobile\mirror\exception\MirrorException.java">
+<error line="0" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+</file>
+</checkstyle>

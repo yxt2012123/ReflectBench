@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Mirror Library
+Implementation-Version: 1.0.0
+Main-Class: com.genymobile.mirror.Mirror
+

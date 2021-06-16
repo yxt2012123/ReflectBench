@@ -1,0 +1,28 @@
+com/genymobile/mirror/MirrorValidator.java
+ com.genymobile.mirror.MirrorValidator
+com/genymobile/mirror/annotation/SetInstance.java
+ com.genymobile.mirror.annotation.SetInstance
+com/genymobile/mirror/MirrorHandler.java
+ com.genymobile.mirror.MirrorHandler
+com/genymobile/mirror/annotation/GetField.java
+ com.genymobile.mirror.annotation.GetField
+com/genymobile/mirror/annotation/Constructor.java
+ com.genymobile.mirror.annotation.Constructor
+com/genymobile/mirror/annotation/GetInstance.java
+ com.genymobile.mirror.annotation.GetInstance
+com/genymobile/mirror/Wrapper.java
+ com.genymobile.mirror.Wrapper
+com/genymobile/mirror/exception/MirrorDeveloperException.java
+ com.genymobile.mirror.exception.MirrorDeveloperException
+com/genymobile/mirror/Mirror.java
+ com.genymobile.mirror.Mirror
+com/genymobile/mirror/annotation/Class.java
+ com.genymobile.mirror.annotation.Class
+com/genymobile/mirror/exception/MirrorException.java
+ com.genymobile.mirror.exception.MirrorException
+com/genymobile/mirror/ReflectionFinder.java
+ com.genymobile.mirror.ReflectionFinder
+com/genymobile/mirror/Unwrapper.java
+ com.genymobile.mirror.Unwrapper
+com/genymobile/mirror/annotation/SetField.java
+ com.genymobile.mirror.annotation.SetField
