@@ -1,0 +1,11 @@
+[
+{
+  "name":"pl.ug.reflect.benchmark5.data.ReflectClass",
+  "methods":[
+    {"name":"getPrivateComplex","parameterTypes":[] }, 
+    {"name":"getPrivateSimple","parameterTypes":[] }, 
+    {"name":"setPrivateComplex","parameterTypes":["java.util.List"] }, 
+    {"name":"setPrivateSimple","parameterTypes":["java.lang.Integer"] }
+  ]
+}
+]

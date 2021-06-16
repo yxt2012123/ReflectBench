@@ -1,0 +1,18 @@
+[
+{
+  "name":"pl.ug.reflect.benchmark6.data.ReflectClass",
+  "methods":[
+    {"name":"getPrivateComplex","parameterTypes":[] }, 
+    {"name":"getPrivateSimple","parameterTypes":[] }, 
+    {"name":"setPrivateAll","parameterTypes":["java.lang.Integer","float","double","long","short","boolean","char","byte"] }, 
+    {"name":"setPrivateApple","parameterTypes":["short"] }, 
+    {"name":"setPrivateCrumble","parameterTypes":["boolean"] }, 
+    {"name":"setPrivatePineapple","parameterTypes":["byte"] }, 
+    {"name":"setPrivateRimple","parameterTypes":["double"] }, 
+    {"name":"setPrivateRumble","parameterTypes":["char"] }, 
+    {"name":"setPrivateSample","parameterTypes":["float"] }, 
+    {"name":"setPrivateSimple","parameterTypes":["java.lang.Integer"] }, 
+    {"name":"setPrivateTemple","parameterTypes":["long"] }
+  ]
+}
+]

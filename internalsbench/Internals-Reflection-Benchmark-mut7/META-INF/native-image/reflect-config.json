@@ -1,0 +1,13 @@
+[
+{
+  "name":"pl.ug.reflect.benchmark7.data.ReflectClass",
+  "methods":[
+    {"name":"getPrivateComplex","parameterTypes":[] }, 
+    {"name":"getPrivateCrumble","parameterTypes":[] }, 
+    {"name":"getPrivateRimple","parameterTypes":[] }, 
+    {"name":"getPrivateSample","parameterTypes":[] }, 
+    {"name":"getPrivateSimple","parameterTypes":[] }, 
+    {"name":"getPrivateTemple","parameterTypes":[] }
+  ]
+}
+]
