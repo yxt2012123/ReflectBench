@@ -1,0 +1,16 @@
+[
+{
+  "name":"com.google.gson5.DefaultConstructorAllocator$Null",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.google.gson5.test.TestTypes$BagOfPrimitives",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"allocateInstance","parameterTypes":["java.lang.Class"] }]
+}
+]
