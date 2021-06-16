@@ -1,0 +1,17 @@
+[
+{
+  "name":"pl.ug.reflect.benchmark2.data.ReflectClass",
+  "methods":[
+    {"name":"getPrivateApple","parameterTypes":[] }, 
+    {"name":"getPrivateCrumble","parameterTypes":[] }, 
+    {"name":"getPrivateRimple","parameterTypes":[] }, 
+    {"name":"getPrivateRumble","parameterTypes":[] }, 
+    {"name":"getPrivateSample","parameterTypes":[] }, 
+    {"name":"getPrivateSimple","parameterTypes":[] }, 
+    {"name":"getPrivateTemple","parameterTypes":[] }, 
+    {"name":"getPrivateWhatTheHeckIsReachable","parameterTypes":[] }, 
+    {"name":"setPrivateComplex","parameterTypes":["java.util.List"] }, 
+    {"name":"setPrivateSimple","parameterTypes":["java.lang.Integer"] }
+  ]
+}
+]
