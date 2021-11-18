@@ -1,0 +1,13 @@
+Internals-Mut2
+#Reflective Elements: 11
+Inputs: int, int, String, String
+7 100 get Crum
+7 100 get Rum
+7 100 get WhatTheHeckIsReacha
+2 1 Simple get
+2 1 Sample get
+2 1 Rimple get
+2 1 Temple get
+2 1 Apple get
+-390 210 set Complex
+45150 300 set Simple

@@ -19,21 +19,24 @@ public class Test {
 	//The reflection points are in ConstructorUtils/FinalizableReferenceQueue/ClassData.
 	
 	public static void main(String args[]) {
-		int a=-1 ;String is1="",is2="",is3="",is4="";
-		try {
-			a=Integer.parseInt(args[0]);
-			is1=args[1];
-			is2=args[2];
-			is3=args[3];
-			is4=args[4];
-		}
-		catch(Exception e) {System.out.println("5 args needed: int, String, String, String, String");}
-		main(a,is1,is2,is3,is4);
-		//0,1,2,3,4
-		//GetSuperClass
-		//UseDynaBean
-		//something that includes a '.'
-		//anything
+    	int index = 0;
+	    while (index<args.length) {
+			int a=-1 ;String is1="",is2="",is3="",is4="";
+			try {
+				a=Integer.parseInt(args[index++]);
+				is1=args[index++];
+				is2=args[index++];
+				is3=args[index++];
+				is4=args[index++];
+			}
+			catch(Exception e) {System.out.println("5 args needed: int, String, String, String, String");}
+			main(a,is1,is2,is3,is4);
+			//0,1,2,3,4
+			//GetSuperClass
+			//UseDynaBean
+			//something that includes a '.'
+			//anything
+	    }
 	}
 	
 	public static void main(int a, String s1, String s2, String s3, String s4) {

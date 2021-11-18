@@ -64,19 +64,22 @@ public class Test {
 
 	  
 	  public static void main(String args[]) {
-		  int a=0,b=0,c=0;
-	      try {
-	    	  a=Integer.parseInt(args[0]);
-	    	  b=Integer.parseInt(args[1]);
-	    	  c=Integer.parseInt(args[2]);
-	      }catch (Exception e) {
-	        System.out.println("3 args needed: int, int, int");
-	    	//0,1140,10098274
-	        //0,10091096,0
-	        //8333,0,913684
-	        //0,0,41102339
-	      }
-	      main(a,b,c);
+	    	int index = 0;
+		    while (index<args.length) {
+			  int a=0,b=0,c=0;
+		      try {
+		    	  a=Integer.parseInt(args[index++]);
+		    	  b=Integer.parseInt(args[index++]);
+		    	  c=Integer.parseInt(args[index++]);
+		      }catch (Exception e) {
+		        System.out.println("3 args needed: int, int, int");
+		    	//0,1140,10098274
+		        //0,10091096,0
+		        //8333,0,913684
+		        //0,0,41102339
+		      }
+		      main(a,b,c);
+		    }
 	  }
 	 
 	  public static void main(int a,int b,int c) {

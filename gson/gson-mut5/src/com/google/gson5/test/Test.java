@@ -28,13 +28,16 @@ public class Test {
 	  
 	  
 	  public static void main(String args[]) {
-		  String s="";
-		  try {s=args[0];}
-		  catch (Exception e) {
-			  System.out.println("1 arg needed: String");
-		  }
-
-	      main (s);
+	    	int index = 0;
+		    while (index<args.length) {
+			  String s="";
+			  try {s=args[index++];}
+			  catch (Exception e) {
+				  System.out.println("1 arg needed: String");
+			  }
+	
+		      main (s);
+		    }
 	  }
 	  
 	  public static void main(String s) {

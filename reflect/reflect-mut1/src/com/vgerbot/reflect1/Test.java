@@ -19,25 +19,27 @@ import com.vgerbot.reflect1.Reflect.ObjectReflect;
 
 public class Test {
     public static void main(String[] args) {
-    	
-    	int a=0,b=0,c=0,d=0,e=0;
-    	//1000,0,0,x,x...
-    	//100000,x,20000,x,1000...
-    	//200000,x,0,x,24...
-    	//100000,-5000001,20000,1000000,1000
-    	
-    	
-    	try {
-    		a=Integer.parseInt(args[0]);
-    		b=Integer.parseInt(args[1]);
-    		c=Integer.parseInt(args[2]);
-    		d=Integer.parseInt(args[3]);
-    		e=Integer.parseInt(args[4]);
-
-    	}catch (Exception ex) {
-    		System.out.println("5 args needed: int, int, int, int, int");
+    	int index = 0;
+    	while (index<args.length) {
+	    	int a=0,b=0,c=0,d=0,e=0;
+	    	//1000,0,0,x,x...
+	    	//100000,x,20000,x,1000...
+	    	//200000,x,0,x,24...
+	    	//100000,-5000001,20000,1000000,1000
+	    	
+	    	
+	    	try {
+	    		a=Integer.parseInt(args[index++]);
+	    		b=Integer.parseInt(args[index++]);
+	    		c=Integer.parseInt(args[index++]);
+	    		d=Integer.parseInt(args[index++]);
+	    		e=Integer.parseInt(args[index++]);
+	
+	    	}catch (Exception ex) {
+	    		System.out.println("5 args needed: int, int, int, int, int");
+	    	}
+	    	main(a,b,c,d,e);
     	}
-    	main(a,b,c,d,e);
     	
     }
 	

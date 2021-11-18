@@ -1,0 +1,13 @@
+-input
+inputfile
+-o
+outputfile
+extra1
+-someflag
+extra2
+-m
+10
+-values
+1:2:3
+-strings
+sam;dave1;jolly

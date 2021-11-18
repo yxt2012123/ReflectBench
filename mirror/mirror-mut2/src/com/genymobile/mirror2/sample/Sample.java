@@ -26,19 +26,21 @@ public final class Sample {
     //in this mutant benchmark, we set the branch statements and variables here.
 
     public static void main(String[] args) {
-    	
-    	int ia=0,ib=0,ic=0;
-    	double id=0.0;
-    	
-    	try {
-    		ia=Integer.parseInt(args[0]);
-    		ib=Integer.parseInt(args[1]);
-    		ic=Integer.parseInt(args[2]);
-    		id=Double.parseDouble(args[3]);
-    	}catch (Exception e) {
-    		System.out.println("4 args needed: int, int, int, double");
+    	int index = 0;
+    	while (index<args.length) {
+	    	int ia=0,ib=0,ic=0;
+	    	double id=0.0;
+	    	
+	    	try {
+	    		ia=Integer.parseInt(args[index++]);
+	    		ib=Integer.parseInt(args[index++]);
+	    		ic=Integer.parseInt(args[index++]);
+	    		id=Double.parseDouble(args[index++]);
+	    	}catch (Exception e) {
+	    		System.out.println("4 args needed: int, int, int, double");
+	    	}
+	    	main(ia,ib,ic,id);
     	}
-    	main(ia,ib,ic,id);
     }
     
     public static void main(int a, int b, int c, double d) {

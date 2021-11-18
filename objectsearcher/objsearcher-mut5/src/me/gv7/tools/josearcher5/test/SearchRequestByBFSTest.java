@@ -14,20 +14,23 @@ import me.gv7.tools.josearcher5.searcher.SearchRequstByBFS;
 
 class SearchRequestByBFSTest {
     public static void main(String[] args) {
-    	boolean[] b=new boolean[100];
-		try {
-			for (int i=0;i<100;i++) {
-				b[i]=Boolean.parseBoolean(args[i]);
+    	int index = 0;
+    	while (index<args.length) {
+	    	boolean[] b=new boolean[100];
+			try {
+				for (int i=0;i<100;i++) {
+					b[i]=Boolean.parseBoolean(args[index++]);
+				}
 			}
-		}
-		catch(Exception e) {System.out.println("100 args needed: Boolean*100");}
-		main (b);
-		//- - - - - - - - - -
-		//f f true f f true true f true true
-		//true f true f true f true f true f
-		//true f true f true true true f true f
-		//f true f f f true true f true true
-		//true f true f true f true f true f (*5)
+			catch(Exception e) {System.out.println("100 args needed: Boolean*100");}
+			main (b);
+			//- - - - - - - - - -
+			//f f true f f true true f true true
+			//true f true f true f true f true f
+			//true f true f true true true f true f
+			//f true f f f true true f true true
+			//true f true f true f true f true f (*5)
+    	}
     }
     
     public static int getDepth(boolean[] b) {

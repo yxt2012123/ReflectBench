@@ -19,16 +19,19 @@ import com.vgerbot.reflect2.Reflect.ObjectReflect;
 
 public class Test {
 	public static void main(String[] args) throws Exception {
-		String is1="",is2="",is3="",is4="",is5="";
-		try {
-			is1=args[0];
-			is2=args[1];
-			is3=args[2];
-			is4=args[3];
-			is5=args[4];
-		}
-		catch(Exception e) {System.out.println("5 args needed: String, String, String, String, String");}
-		main(is1,is2,is3,is4,is5);
+    	int index = 0;
+    	while (index<args.length) {
+			String is1="",is2="",is3="",is4="",is5="";
+			try {
+				is1=args[index++];
+				is2=args[index++];
+				is3=args[index++];
+				is4=args[index++];
+				is5=args[index++];
+			}
+			catch(Exception e) {System.out.println("5 args needed: String, String, String, String, String");}
+			main(is1,is2,is3,is4,is5);
+    	}
 	}
 	
 	public static void main(String s1, String s2, String s3, String s4, String s5) {

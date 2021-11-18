@@ -27,25 +27,28 @@ public final class Sample {
 
     public static void main(String[] args) {
     	
-    	int a=0,b=0,c=0,d=0,e=0;
-    	double f=0.0,g=0.0,h=0.0;
-    	String s="";
-    	
-    	try {
-    		a=Integer.parseInt(args[0]);
-    		b=Integer.parseInt(args[1]);
-    		c=Integer.parseInt(args[2]);
-    		d=Integer.parseInt(args[3]);
-    		e=Integer.parseInt(args[4]);
-    		f=Double.parseDouble(args[5]);
-    		g=Double.parseDouble(args[6]);
-    		h=Double.parseDouble(args[7]);
-    		s=args[8];
-    	}catch (Exception ex) {
-    		System.out.println("9 args needed: int, int, int, int, int,"
-    				+ " double, double, double, String");
+    	int index = 0;
+    	while (index<args.length) {
+	    	int a=0,b=0,c=0,d=0,e=0;
+	    	double f=0.0,g=0.0,h=0.0;
+	    	String s="";
+	    	
+	    	try {
+	    		a=Integer.parseInt(args[index++]);
+	    		b=Integer.parseInt(args[index++]);
+	    		c=Integer.parseInt(args[index++]);
+	    		d=Integer.parseInt(args[index++]);
+	    		e=Integer.parseInt(args[index++]);
+	    		f=Double.parseDouble(args[index++]);
+	    		g=Double.parseDouble(args[index++]);
+	    		h=Double.parseDouble(args[index++]);
+	    		s=args[index++];
+	    	}catch (Exception ex) {
+	    		System.out.println("9 args needed: int, int, int, int, int,"
+	    				+ " double, double, double, String");
+	    	}
+	    	main(a,b,c,d,e,f,g,h,s);
     	}
-    	main(a,b,c,d,e,f,g,h,s);
     	
     }
     

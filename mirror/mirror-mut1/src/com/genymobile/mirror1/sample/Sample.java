@@ -24,17 +24,20 @@ public final class Sample {
     }
 
     public static void main(String[] args) {
-    	int ia=0,ib=0;double ic=0.0; String is="";
-    	try {
-    		ia=Integer.parseInt(args[0]);
-    		ib=Integer.parseInt(args[1]);
-    		ic=Double.parseDouble(args[2]);
-    		is=args[3];
-    	}catch (Exception e) {
-    		System.out.println("4 args needed: int, int, double, String");
-    		//1,2,3...,abc...
+    	int index = 0;
+    	while (index<args.length) {
+	    	int ia=0,ib=0;double ic=0.0; String is="";
+	    	try {
+	    		ia=Integer.parseInt(args[index++]);
+	    		ib=Integer.parseInt(args[index++]);
+	    		ic=Double.parseDouble(args[index++]);
+	    		is=args[index++];
+	    	}catch (Exception e) {
+	    		System.out.println("4 args needed: int, int, double, String");
+	    		//1,2,3...,abc...
+	    	}
+	    	main(ia,ib,ic,is);
     	}
-    	main(ia,ib,ic,is);
     }
     
     public static void main(int ia,int ib,double ic, String is) {

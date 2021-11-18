@@ -11,12 +11,15 @@ public class App {
 	public static String s="";
 
     public static void main(String[] args) {
-    	String is="";
-		try {
-			is=args[0];
-		}
-		catch(Exception e) {System.out.println("1 arg needed: String");}
-		main (is);
+    	int index = 0;
+    	while (index<args.length) {
+	    	String is="";
+			try {
+				is=args[index++];
+			}
+			catch(Exception e) {System.out.println("1 arg needed: String");}
+			main (is);
+    	}
     }
     public static void main(String is) {
     	s=is;

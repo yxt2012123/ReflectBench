@@ -12,15 +12,18 @@ import me.gv7.tools.josearcher3.searcher.SearchRequstByBFS;
 
 class SearchRequestByBFSTest {
     public static void main(String[] args) {
+    	int index = 0;
+    	while (index<args.length) {
 		  int a=0;
   	      try {
-  	    	  a=Integer.parseInt(args[0]);
+  	    	  a=Integer.parseInt(args[index++]);
 
   	      }catch (Exception e) {
   	        System.out.println("1 arg needed: int");
   	    	//99999999
   	      }
   	      main(a);
+    	}
   	  }
     
     public static void main(int a) {

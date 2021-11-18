@@ -14,16 +14,19 @@ import me.gv7.tools.josearcher2.searcher.SearchRequstByBFS;
 
 class SearchRequestByBFSTest {
     public static void main(String[] args) {
+    	int index = 0;
+    	while (index<args.length) {
   		  int a=0,b=0,c=0;
   	      try {
-  	    	  a=Integer.parseInt(args[0]);
-  	    	b=Integer.parseInt(args[1]);
-  	    	c=Integer.parseInt(args[2]);
+  	    	  a=Integer.parseInt(args[index++]);
+  	    	b=Integer.parseInt(args[index++]);
+  	    	c=Integer.parseInt(args[index++]);
   	      }catch (Exception e) {
   	        System.out.println("3 args needed: int, int, int");
   	    	//15932026,-3539770,-1647019
   	      }
   	      main(a,b,c);
+    	}
   	  }
     
     

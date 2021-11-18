@@ -57,14 +57,17 @@ public class Test {
 	  }
 	  
 	  public static void main(String args[]) {
-		  int a=0;
-	      try {
-	    	  a=Integer.parseInt(args[0]);
-	      }catch (Exception e) {
-	        System.out.println("1 args needed: int");
-	    	//1,2
-	      }
-	      main(a);
+	    	int index = 0;
+		    while (index<args.length) {
+			  int a=0;
+		      try {
+		    	  a=Integer.parseInt(args[index++]);
+		      }catch (Exception e) {
+		        System.out.println("1 args needed: int");
+		    	//1,2
+		      }
+		      main(a);
+		    }
 	  }
 	  
 	  public static void main(int a) {

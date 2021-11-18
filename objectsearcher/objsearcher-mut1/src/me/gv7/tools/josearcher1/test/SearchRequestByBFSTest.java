@@ -14,13 +14,15 @@ import me.gv7.tools.josearcher1.searcher.SearchRequstByBFS;
 
 class SearchRequestByBFSTest {
     public static void main(String[] args) {
+    	int index = 0;
+    	while (index<args.length) {
 		  double a=0;
 		  double b=0;
 		  double c=0;
 	      try {
-	    	  a=Double.parseDouble(args[0]);
-	    	  b=Double.parseDouble(args[1]);
-	    	  c=Double.parseDouble(args[2]);
+	    	  a=Double.parseDouble(args[index++]);
+	    	  b=Double.parseDouble(args[index++]);
+	    	  c=Double.parseDouble(args[index++]);
 	      }catch (Exception e) {
 	        System.out.println("3 args needed: double, double, double");
 	    	//1
@@ -29,6 +31,7 @@ class SearchRequestByBFSTest {
 	      //-1.83956105399861422145596627064E53
 	      //1e300
 	      //1.58740106
+    	}
 	  }
     
     public static void main(double ia,double ib,double ic) {

@@ -22,17 +22,20 @@ import com.vgerbot.reflect3.Reflect;
 
 public class Test {
 	public static void main(String args[]) throws Exception {
-		int[] arr=new int[18];
-		try {
-			for (int i=0;i<18;i++) {
-				arr[i]=Integer.parseInt(args[i]);
-			}
-
-		} catch(Exception e) {System.out.println("18 args needed: int*18");}
-		main(arr);
-		//100 111 99 104 101 99 107
-		//112 117 98 108 105 99
-		//98 97 116 99 104
+    	int index = 0;
+	    while (index<args.length) {
+			int[] arr=new int[18];
+			try {
+				for (int i=0;i<18;i++) {
+					arr[i]=Integer.parseInt(args[index++]);
+				}
+	
+			} catch(Exception e) {System.out.println("18 args needed: int*18");}
+			main(arr);
+			//100 111 99 104 101 99 107
+			//112 117 98 108 105 99
+			//98 97 116 99 104
+    	}
 	}
 	
 	public static void f(int arr[]) {

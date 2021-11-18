@@ -24,33 +24,36 @@ public final class Sample {
     }
 
     public static void main(String[] args) {
-    	int ia=0;
-    	int ib=0;
-    	int ic=0;
-    	int id=0;
-    	int ie=0;
-    	double ff=0.0;
-    	double ig=0.0;
-    	double ih=0.0;
-    	String is="";
-    	try {
-    		ia=Integer.parseInt(args[0]);
-    		ib=Integer.parseInt(args[1]);
-    		ic=Integer.parseInt(args[2]);
-    		id=Integer.parseInt(args[3]);
-    		ie=Integer.parseInt(args[4]);
-    		ff=Double.parseDouble(args[5]);
-    		ig=Double.parseDouble(args[6]);
-    		ih=Double.parseDouble(args[7]);
-    		is=args[8];
-    	}catch (Exception e) {
-    		System.out.println("9 args needed: int, int, int, int, int,"
-    				+ " double, double, double, String");
-    		//1,2,3,4,5,ccccc
-    		//1.5707963 0 1.5707963
-    		//3.375 4.4816890703 -0.69314718
+    	int index = 0;
+    	while (index<args.length) {
+	    	int ia=0;
+	    	int ib=0;
+	    	int ic=0;
+	    	int id=0;
+	    	int ie=0;
+	    	double ff=0.0;
+	    	double ig=0.0;
+	    	double ih=0.0;
+	    	String is="";
+	    	try {
+	    		ia=Integer.parseInt(args[index++]);
+	    		ib=Integer.parseInt(args[index++]);
+	    		ic=Integer.parseInt(args[index++]);
+	    		id=Integer.parseInt(args[index++]);
+	    		ie=Integer.parseInt(args[index++]);
+	    		ff=Double.parseDouble(args[index++]);
+	    		ig=Double.parseDouble(args[index++]);
+	    		ih=Double.parseDouble(args[index++]);
+	    		is=args[index++];
+	    	}catch (Exception e) {
+	    		System.out.println("9 args needed: int, int, int, int, int,"
+	    				+ " double, double, double, String");
+	    		//1,2,3,4,5,ccccc
+	    		//1.5707963 0 1.5707963
+	    		//3.375 4.4816890703 -0.69314718
+	    	}
+	    	main(ia,ib,ic,id,ie,ff,ig,ih,is);
     	}
-    	main(ia,ib,ic,id,ie,ff,ig,ih,is);
     }
     
     public static void main(int ia,int ib,int ic,int id,int ie,double ff,double ig,double ih,String is) {

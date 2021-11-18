@@ -27,27 +27,30 @@ public class Test {
 	  
 	  
 	  public static void main(String args[]) {
-		  boolean[] arr=new boolean[100];
-	      try {
-	    	  for (int i=0;i<100;i++) {
-	    		  arr[i]=Boolean.parseBoolean(args[i]);
-	    	  }
-	      }catch (Exception e) {
-	        System.out.println("100 args needed: boolean*100");
-	    	//+:0,1,6,7,18,23,31,38,39,47,50,56,70,72,77,78,86,89,91,93,95
-	        //-:2,4,9,10,11,12,14,19,27,34,36,40,44,45,49,51,52,71,76,90,97
-	        //true true f - f - true true - f
-	        //f f f - f - - - true f
-	        //- - - true - - - f - -
-	        //- true - - f - f - true true
-	        //f - - - f f - true f -
-	        //true f f - - - true - - -
-	        //- - - - - - - - - -
-	        //true f true - - - f true true -
-	        //- - - - - - true - - true
-	        //f true - true - true - f - -
-	      }
-	      main (arr);
+	    	int index = 0;
+		    while (index<args.length) {
+			  boolean[] arr=new boolean[100];
+		      try {
+		    	  for (int i=0;i<100;i++) {
+		    		  arr[i]=Boolean.parseBoolean(args[index++]);
+		    	  }
+		      }catch (Exception e) {
+		        System.out.println("100 args needed: boolean*100");
+		    	//+:0,1,6,7,18,23,31,38,39,47,50,56,70,72,77,78,86,89,91,93,95
+		        //-:2,4,9,10,11,12,14,19,27,34,36,40,44,45,49,51,52,71,76,90,97
+		        //true true f - f - true true - f
+		        //f f f - f - - - true f
+		        //- - - true - - - f - -
+		        //- true - - f - f - true true
+		        //f - - - f f - true f -
+		        //true f f - - - true - - -
+		        //- - - - - - - - - -
+		        //true f true - - - f true true -
+		        //- - - - - - true - - true
+		        //f true - true - true - f - -
+		      }
+		      main (arr);
+		    }
 	  }
 	  
 	  public static void main(boolean iarr[]) {
